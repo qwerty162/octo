@@ -5,6 +5,11 @@ UsePAM no
 PidFile /home/jovyan/.ssh/sshd.pid
 
 X11Forwarding yes
+GatewayPorts yes
+AllowTcpForwarding all
+AllowStreamLocalForwarding all
+Compression no
+
 PrintMotd no
 ChallengeResponseAuthentication no
 AcceptEnv LANG LC_*
