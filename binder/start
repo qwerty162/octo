@@ -19,6 +19,7 @@ cp binder/sshd_config .ssh/sshd_config
 
 # Configure client to use port 2222 when ssh to localhost
 printf "Host 0.0.0.0\n  Port 2222\n" > .ssh/config
+printf "\nHost localhost\n  Port 2222\n" > .ssh/config
 
 # Approve host key in client when server starts
 sleep 5  # Give ssh a chance to start
