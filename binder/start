@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "jovyan:redspot" | chpasswd
-
 # Make SSH directory
 mkdir ~/.ssh && chmod 700 ~/.ssh
 
