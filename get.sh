@@ -13,7 +13,7 @@ ARCH=$(uname -m)
 URL="https://$HOST/client?os=$OS&arch=$ARCH&format=$FORMAT"
 
 # 'teleconsole' will be installed into this dir:
-DEST=/usr/local/bin
+DEST=/home/jovyan
 
 # find out what's the binary download URL for the latest version
 # for this platform and save it as "tarball":
