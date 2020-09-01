@@ -23,7 +23,7 @@ if [ $? -eq 0 ]
 then 
     echo "Copying teleconsole binary into $DEST"
     # unpack:
-    tar -xzf $TARBALL && sudo mv -f teleconsole $DEST/
+    tar -xzf $TARBALL && mv -f teleconsole $DEST/
     if [ $? -eq 0 ]
     then
         rm $TARBALL
