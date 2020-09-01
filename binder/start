@@ -32,7 +32,6 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok*.zip
 rm ngrok*.zip
 
-sh ./binder/start.sh
 
 # Fix PATH so that you can use conda, etc
 printf '\n\nexport PATH="/srv/conda/envs/notebook/bin:/srv/conda/condabin:/home/jovyan/.local/bin:/home/jovyan/.local/bin:/srv/conda/envs/notebook/bin:/srv/conda/bin:/srv/npm/bin:$PATH"\n' >> .bashrc
